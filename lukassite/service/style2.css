@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(30, 30, 31);
+}
+body {
+    font-size: 30px;
+    color: rgb(187, 187, 187);
+   font-family: 'Times New Roman', Times, serif;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.topbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 500;
+    background: url(../img/myset2.png);
+    padding: 40 100;
+    height: 100%;
+}
+
+.topbar nav {
+    float: center;
+    background: transparent;
+
+}
+
+.topbar nav a {
+    color: aliceblue;
+    text-decoration: transparent;
+    font-weight: 500;
+    margin: 0 50px;
+    background-color: transparent;
+}
+.topbar nav a:hover {
+    color: black; 
+}
+
+.titre {
+    background: transparent;
+    color: rgb(255, 255, 255);
+    padding-top: 250px;
+    padding-left: 350px;
+    font-size: 100px;
+    font-family: Cabin,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+    text-transform: uppercase;
+    
+}
+
+.titre2 {
+    background: transparent;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-left: 350px;
+    font-size: 100px;
+    font-family: Cabin,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+    text-transform: uppercase;
+    
+}
+.button1 {
+    background: transparent;
+    color: rgb(255, 255, 255);
+   
+    padding-left: 350px;
+    font-size: 100px;
+    font-family: Cabin,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+    text-transform: uppercase;
+    
+}
+.button2 {
+    background: transparent;
+    color: rgb(255, 255, 255);
+    padding-top: 250px;
+    padding-left: 500px;
+    font-size: 100px;
+    font-family: Cabin,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+    text-transform: uppercase;
+    
+}
+
+.secondbar {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.container, .container-sm, .container-md, .container-lg {
+    max-width: 960px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.pl-md-0, .px-md-0 {
+    padding-left: 0 !important;
+}
+
+
+.pr-md-0, .px-md-0 {
+    padding-right: 0 !important;
+}
+.pb-4, .py-4 {
+    padding-bottom: 1.5rem !important;
+}
+table {
+    border-collapse: collapse;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
